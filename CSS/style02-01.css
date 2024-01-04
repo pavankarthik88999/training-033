@@ -1,0 +1,64 @@
+.main{
+    height: 100%;
+    width: 100%;
+    outline: 2px solid;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#b1{
+    background-color: green;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#b2{
+    background-color: skyblue;
+    border-radius: 5px;
+    margin-top:10px;
+
+}
+#b3{
+    background-color: skyblue;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#b4{
+    background-color: skyblue;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#b5{
+    background-color: red;
+    border-radius: 5px;
+    margin-top:10px;
+}
+.profile
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: skyblue;
+    margin: 30px;
+    float: left;
+}
+.content1{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 30px;
+    border-radius: 20px;
+    float: left;
+}
+#track
+{
+    height: 310px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    left: 55px;
+    bottom: 50px;
+}

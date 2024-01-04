@@ -1,0 +1,59 @@
+.main{
+    height: 100%;
+    width: 100%;
+    border: 5px solid   rgb(206, 203, 203);
+    background-color: rgb(206, 203, 203);
+}
+.content1{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin:40px;
+    float: left;
+    padding: 40px;
+    text-align: center;
+     text-overflow: ellipsis;
+}
+.b1{
+    border-radius: 30px;
+    background-color:rgb(29, 82, 198);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.content2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin:40px;
+    float: left;
+    padding: 40px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.content3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin:40px;
+    float: left;
+    padding: 40px;
+   text-align: center; 
+   text-overflow: ellipsis; 
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(29, 82, 198) ;
+    position: relative;
+    left: 110px;
+}
+.icon3{
+    position: relative;
+    top: 10px;
+    color: rgb(237, 232, 232);
+   
+}

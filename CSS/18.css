@@ -1,0 +1,167 @@
+#d1{
+    height: 80px;
+    width: 700px;
+    background-color: aqua;
+    
+}
+
+#d11{
+    height:80px ;
+    width:150px;
+    background-color: brown;
+    float: left;
+
+}
+#d12{
+    height: 80px;
+    width: 400px;
+    background-color: rgb(13, 174, 120);
+    float: left;
+}
+#d13{
+    height: 80px;
+    width: 150px;
+    background-color: green;
+    float: right;
+ 
+  
+    
+}
+#d131{
+    height: 40px;
+    width: 150px;
+    background-color:black;
+ 
+}
+
+#d132{
+    height: 40px;
+    width: 75px;
+    background-color: rgb(53, 22, 190);
+    float:left;
+
+}
+#d133{
+    height: 40px;
+    width: 75px;
+    background-color: rgb(224, 15, 57);
+    float:right;
+ 
+  
+}#d2{
+    height: 320px;
+    width: 150px;
+    background-color: rgb(164, 193, 21);
+    float:left;
+    
+}
+#d3{
+    height: 80px;
+    width: 550px;
+    background-color: blueviolet;
+    float: right;
+   
+}
+#d4{
+    height: 240px;
+    width: 150px;
+    background-color: aquamarine;
+    float: left;
+}
+#d5{
+height: 240px;
+    width: 150px;
+    background-color: rgb(24, 213, 31);
+    float: left;
+} 
+#d6{
+    height: 240px;
+    width: 250px;
+    background-color: rgb(213, 24, 24);
+    float: left;
+}
+#d21{
+    height: 240px;
+    width: 150px;
+    
+}
+#d22{
+    height: 80px;
+    width: 75px;
+    float: left;
+    background-color: blue;
+}
+#d23
+{ height: 80px;
+width: 75px;
+float: right;
+background-color: rgb(255, 0, 0);
+}
+#d41{
+    height: 160px;
+    width: 75px;
+    background-color: rgb(192, 14, 145);
+    float: left;
+
+}
+#d42{
+    height: 160px;
+    width: 75px;
+    background-color: rgb(20, 14, 192);
+    float: right;
+
+}
+#d43{
+    height: 80px;
+    width: 150px;
+}
+#d61
+{
+    height: 80px;
+    width: 250px;
+    background-color: black;
+  
+}
+#d62{
+    height: 160px;
+  width:100px ;
+  background-color: rgb(179, 255, 0);
+  float: left;
+ 
+}
+#d621{
+    height: 160px;
+    width: 100px;
+    background-color: blue;
+
+}
+#dtemp{
+    height: 80px;
+    width: 100px;
+}
+#d622{
+    height: 80px;
+    width: 50px;
+    float: left;
+    background-color: brown;
+}
+#d623{
+    height: 80px;
+    width: 50px;
+    float: left;
+    background-color: rgb(0, 195, 255);
+}
+#d624{
+    height: 160px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+}
+#d625{
+    height: 160px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+
+}
+

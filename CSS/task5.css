@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+}
+p{
+    font-size: 34px;
+    margin-top: 47px;
+    color: aliceblue;
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    padding-top: 25px;
+}
+.one{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+.two{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    position: relative;
+    top: -499px;
+    right: -1190px;
+    float: left;
+}
+.three{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    position: relative;
+    top: -499px;
+    right: -1770px;
+}
+.four{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 410px;
+    float: left;
+    left: 600px;
+}
+.five{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 410px;
+    left: 790px;
+    float: left;
+}
+.six{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 410px;
+    right: 740px;
+    float: right;
+}
+div{
+    border-radius: 7%;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+h2{
+    color: blueviolet;
+    font-size: 34px;
+    padding-left: 60px;
+    font-weight: 900;
+    position: relative;
+    top: -20px;
+}
+.text{
+    font-size: 24px;
+    text-align:center;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+.btn{
+    border: 10px solid blueviolet;
+    font-size: 28px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 30px;
+    height: 60px;
+    width: 120px;
+    position: relative;
+    left: 120px;
+    bottom: 35px;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 480px;
+    left: 50px;   
+}
+h3{
+    color:blueviolet;
+    font-size: 34px;
+    padding-left: 60px;
+    font-weight: 900;
+    position: relative;
+    bottom: 500px;
+    left: 20px;
+}
+.text2{
+    font-size: 24px;
+    text-align:center;
+    position: relative;
+    top: -500px;
+    left: 15px;
+}
+.btn2{
+    border: 10px solid blueviolet;
+    font-size: 28px;
+    color: rgb(255, 246, 240);
+    background-color: blueviolet;
+    border-radius: 30px;
+    height: 60px;
+    width: 120px;
+    position: relative;
+    right:-120px;
+    bottom: 519px;
+}
+.img4{
+    height: 240px;
+    width: 270px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.img6{
+    height: 290px;
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 30px;
+}

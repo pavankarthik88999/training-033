@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 1400px;
+    width: 2500px;
+    background-color: white;
+    margin-top: 220px;
+}
+.one{
+    height: 560px;
+    width: 780px;
+    float: left;
+    margin: 5px 7px 7px 5px;
+}
+h1{
+    font-size: 89px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 30px;
+    position: relative;
+    left:30px;
+    top: 20px;
+    text-align: left;                 
+ }
+ button{
+    height: 70px;
+    width: 260px;
+    background-color:skyblue ;
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    left:-230px;
+ }
+ .swot{
+    position: relative;
+    top: 22px;
+    left: -285px;
+ }
+ h2{
+    font-size: 40px;
+    margin-left:-100px;
+    margin-top:50px;
+ }
+ span{
+    color: skyblue;
+    font-size:20px;
+    position: relative;
+    left: -300px;
+    top: 52px;
+ }
+ .para{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 40px;
+ }
+ .btn2{
+    margin-top: 30px;
+    height: 70px;
+    width: 260px;
+ }
+ .policy{
+    position: relative;
+    left: -39px;
+ }

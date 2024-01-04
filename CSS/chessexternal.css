@@ -1,0 +1,14 @@
+.dark{
+background-color:rgb(47, 137, 53);
+}
+.white{}
+{
+background-color: white;
+}
+td{
+    height: 50px;
+    width: 50px;
+}
+i{
+    margin-left: 10px;
+}

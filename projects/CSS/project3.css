@@ -1,0 +1,116 @@
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: skyblue;
+    outline: 5px solid white;
+}
+.m1{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.content{
+   position: relative;
+   left: 350px;
+}
+.content1{
+    height: 200px;
+    width: 150px;
+    outline:2px solid white;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    box-shadow: 5px 5px 9px;
+}
+.content1 h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content1 p{
+    text-align: justify;
+    text-align: center;
+}
+.content1 i{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.content2{
+    height: 200px;
+    width: 150px;
+  outline:2px solid white;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 260px;
+    left: 210px;
+    box-shadow: 5px 5px 9px;
+}
+.content2 h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content2 p{
+    text-align: justify;
+    text-align: center;
+}
+.content2 i{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.content3{
+    height: 200px;
+    width: 150px;
+  outline:2px solid white;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 430px;
+    left: 390px;
+    box-shadow: 5px 5px 9px;
+}
+.content3 h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content3 p{
+    text-align: justify;
+    text-align: center;
+}
+.content3 i{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.content4{
+    height: 200px;
+    width: 150px;
+  outline:2px solid white;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 670px;
+    left: 565px;
+    box-shadow: 5px 5px 9px;
+}
+.content4 h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content4 p{
+    text-align: justify;
+    text-align: center;
+}
+.content4 i{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
+

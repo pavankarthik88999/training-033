@@ -1,0 +1,109 @@
+.main{
+    height: 700px;
+    width: 100%;
+    border: 5px solid rgb(216, 210, 210);
+    background-color:rgb(216, 210, 210);
+}
+.mcont{
+    position: relative;
+    left: 150px;
+}
+.mcont h1{
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    right: 200px;
+}
+.content1{
+    height: 200px;
+    width: 300px;
+    border-top: 20px solid ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-color: blueviolet;
+    float: left;
+    margin: 40px;
+    box-shadow: 0px 0px 5px  2px;
+}
+.content1 h3{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.content1 p{
+    margin-left: 10px;
+}
+#d1{
+    border-top-color: rgb(224, 17, 142);
+}
+#icon1{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(224, 17, 142);;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d2{
+    border-top-color:teal;
+}
+#icon2{
+    height: 40px;
+    width: 40px;
+    background-color:teal;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d3{
+    border-top-color: green;
+}
+#icon3{
+    height: 40px;
+    width: 40px;
+    background-color:green;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d4{
+    border-top-color:yellowgreen;
+}
+#icon4{
+    height: 40px;
+    width: 40px;
+    background-color: yellowgreen;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d5{
+    border-top-color:purple;
+}
+#icon5{
+    height: 40px;
+    width: 40px;
+    background-color: purple;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#d6{
+    border-top-color: maroon;
+}
+#icon6{
+    height: 40px;
+    width: 40px;
+    background-color:maroon;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.i6{
+    margin: 20px 20px 20px 20px;
+}

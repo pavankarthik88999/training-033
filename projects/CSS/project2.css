@@ -1,0 +1,142 @@
+.main{
+    height: 900px;
+    width: 100%;
+    outline: 2px solid whitesmoke;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.m1{
+    height: 250px;
+    width: 500px;
+    outline: 5px solid whitesmoke;
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+.main h2{
+       font-size: 15px;
+       letter-spacing: 5px;
+}
+.main h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.main p{
+    text-align: justify;
+}
+#b1{
+    border-radius: 20px;
+    border-color:blue;
+    background-color:rgba(1, 1, 240, 0.434);
+    color: white;
+}
+.m21 p{
+    height: 200px;
+    width:100%;
+    background-color: gray;
+}
+.content1{
+    height: 200px;
+    width: 200px;
+    outline: 2px solid white;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    background-color:white;
+    box-shadow: 5px 5px 7px;
+}
+.content1 i{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: orange;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+.content1 h3{
+    position: relative;
+    right: 20px;
+}
+.content1 p{
+    margin-left: 12px;
+}
+.content2{
+    height: 200px;
+    width: 200px;
+    outline: 2px solid white;
+    position: relative;
+    bottom: 120px;
+    left: 350px;
+    background-color:white;
+    box-shadow: 5px 5px 7px;
+}
+.content2 i{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(18, 195, 195);
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    right: 60px;
+}
+.content2 h3{
+    text-align: left;
+    margin-left: 20px;
+}
+.content2 p{
+     margin-left: 20px;
+}
+.content3{
+    height: 200px;
+    width: 200px;
+    outline: 2px solid white;
+    position: relative;
+    bottom:30px;
+    left: 100px;
+    background-color:white;
+    box-shadow: 5px 5px 7px;
+}
+.content3 i{
+    height: 40px;
+    width: 40px;
+    background-color:blueviolet;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    right: 60px;
+
+}
+.content3 h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.content3 p{
+    margin-left: 10px;
+}
+.content4{
+    height: 200px;
+    width: 200px;
+    outline: 2px solid white;
+    position: relative;
+    bottom: 280px;
+    left: 350px;
+    background-color:white;
+    box-shadow: 5px 5px 7px;
+}
+.content4 i{
+    height: 45px;
+    width: 45px;
+    background-color:red;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    right: 60px;
+}
+.content4 h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.content4 p{
+    margin-left: 10px;
+}
