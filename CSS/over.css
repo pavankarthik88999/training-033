@@ -1,0 +1,9 @@
+.conte{
+    height: 100px;
+    width: 300px;
+    background-color: beige;
+    color: black;
+   /* overflow-x:scroll;
+    overflow-y: scroll;*/
+    overflow: auto;
+}

@@ -1,0 +1,45 @@
+.cards{
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+    float: left;
+}
+.cards2{
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: 2;
+    float: left;
+}
+.cards3{
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    z-index: 3;
+    float: left;
+}
+.cards4{
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    z-index: 4;
+    float: left;
+}
+.cards5{
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    z-index: 5;
+    float: left;
+}

@@ -1,0 +1,84 @@
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+.title
+{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.685);
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.menu{
+     height: 86%;
+     width: 20%;
+     margin-left: 30px;
+     float: left;
+     padding: 2%;
+
+}
+#or{
+    height: 2px;
+    width: 100%;
+    position: relative;
+    top:-10px;
+    left:48%;
+    display: inline;
+    background-color: white;
+}
+.menu button{
+    width: 100%;
+    background-color: rgba(24, 24, 191, 0.79);
+    color: white;
+}
+.menu hr{
+    width:100%;
+    position: relative;
+    top: 10px;
+       
+}
+.currtemp{
+    height: 40%;
+    width: 73%;
+    background-color: rgba(24, 24, 191, 0.79);
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0px 0px 0px;
+    color: white;
+}
+.currtemp h5{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.currtemp p{
+   margin-left: 20px;
+   
+}
+.currtemp img{
+    height:200px;
+    width:200px;
+    float: right;
+    position: relative;
+    bottom: 160px;
+    right: 50px;
+
+}
+.day1{
+    height: 30%;
+    width: 14%;
+    background-color: grey;
+    float: left;
+    margin: 10px;
+    color: white;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 1%;
+    
+}
+.day1 img{
+   height: 30px;
+   width: 30px;
+}
