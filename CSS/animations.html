@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img{
+            height: 400px;
+            width: 400px;
+            animation-name:loading;
+            animation-duration: 3s;
+            animation-delay: 0s;
+            position: absolute;
+            bottom: 0%;
+            left: 500px;
+            transform: rotate();
+            animation-timing-function: ease-in;
+        }
+        @keyframes loading{
+            0%{
+              transform: rotate(0deg);
+            }
+            10%{
+                transform: rotate(8deg);
+            }
+            20%{
+                transform: rotate(0deg);
+            }
+            30%{
+
+                transform: rotate(-8deg);
+            }
+            40%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(8deg);
+            }
+           60%{
+            transform: rotate(0deg);
+           }
+           70%{
+            transform: rotate(-8deg);
+           }
+           80%{
+            transform: rotate(0deg);
+           }
+           90%{
+            transform: rotate(8deg);
+           }
+            100%{
+                transform: rotate(36deg);
+                transform: translate(1000px,-700px)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animie">
+           <img src="../CSS/rocket2-removebg-preview.png" alt="" id="img">
+    </div>
+</body>
+</html>

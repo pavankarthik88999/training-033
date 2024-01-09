@@ -1,0 +1,51 @@
+.main{
+    height: 100%;
+    width: 100%;
+    outline: 2px solid;
+    padding: 10%;
+}
+.main h1{
+    position: relative;
+    bottom: 50px;
+    right: 90px;
+}
+.form
+{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(128, 202, 231);
+    opacity: 0.7;
+    border-radius:2;
+    float: left;
+    margin-left:160px ;
+}
+.sub{
+    width: 98%;
+    border-radius: 5px;
+}
+.mess{
+    width: 98%;
+    border-radius: 5px;
+    height: 20%;
+}
+#b1{
+    height: 50px;
+    width: 90px;
+    background-color: rgba(14, 14, 200, 0.674);
+    margin: 20px;
+}
+iframe{
+    height: 80%;
+    margin-left: 100px;
+}
+.icons{
+    margin-left: 300px;
+}
+.icons i{
+    margin: 80px;
+}
+.icons span{
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
