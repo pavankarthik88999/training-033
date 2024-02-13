@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .air{
+            height: 600px;
+            width: 100%;
+        }
+        .train{
+            animation-name: train;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        div{
+            width: 100%;
+            height: 100%;
+        }
+        #engine{
+            height: 200px;
+        }
+        .bhogi{
+            height: 96px;
+        }
+        #bg{
+            background-image: url(../bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            border-bottom: 2px solid black;
+            padding: 1px;
+        }
+        @keyframes train{
+            0%{
+                
+                    margin-left: -1300px;
+            }
+            100%{
+                
+                    margin-left: 1900px;
+            }
+        }
+        
+        .bird{
+            position: absolute;
+            animation-name: train;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+        }
+        #b1{
+            top: 100px;
+            left: 200px;
+        }
+        #b2{
+            top: 200px;
+            left: 350px;
+        }
+        #b3{
+            top: 180px;
+            left: 700px;
+        }
+        #b4{
+            top: 500px;
+            left: 100px;
+        }
+        #b5{
+            top: 400px;
+            left: 1600px;
+        }
+        #b6{
+            top: 80px;
+            left: 1450px;
+        }
+        #b7{
+            top: 600px;
+            left: 1400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <div class="air">
+            <div class="bird" id="b1"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>
+            <div class="bird" id="b2"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>
+            <div class="bird" id="b3"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>
+            <div class="bird" id="b4"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>        
+            <div class="bird" id="b5"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>        
+            <div class="bird" id="b6"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>        
+            <div class="bird" id="b7"><a href="https://clipart-library.com/clipart/1663288.htm"><img src="https://clipart-library.com/img1/1663288.gif" width="92" height="60" /></a></div>        
+        </div>
+    <div class="train">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../bhogi.png" class="bhogi">
+        <img src="../train.png" id="engine">
+    </div>
+</div>
+</body>
+</html>

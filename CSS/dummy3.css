@@ -1,0 +1,141 @@
+div{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0px;
+    color: white;
+}
+.d1{
+     
+    background-color: skyblue;  
+    transition: all 3s ease-in-out; 
+    transition-duration: 3s;
+    transition-delay: 0s;
+}
+.d1:hover{
+    border-radius: 100%;
+    transform: translate(70px,50px);
+    background-color: black; 
+
+}
+
+.d2{
+     
+    background-color: brown;    
+}
+.d2:hover{
+    transform: translatex(40px); 
+
+}
+.d3{
+     
+    background-color: peachpuff;   
+}
+.d3:hover{
+    transform: translatey(100px); 
+
+}
+.d4{
+     
+    background-color:black;    
+}
+.d4:hover{
+    transform: rotate(70deg); 
+
+}
+
+.d5{
+     
+    background-color:orange;    
+}
+.d5:hover{
+    transform: rotateX(80deg); 
+
+}
+
+.d6{
+     
+    background-color: burlywood;    
+}
+.d6:hover{
+    transform: rotateY(-120deg); 
+
+}
+.d7{
+     
+    background-color:blueviolet;    
+}
+.d7:hover{
+    transform: scale(2,3) 
+
+}
+.d8{
+     
+    background-color: rgb(7, 60, 1);    
+}
+.d8:hover{
+    transform: scaleX(3); 
+
+}
+.d9{
+     
+    background-color: rgb(15, 131, 137);    
+}
+.d9:hover{
+    transform: scaley(3); 
+
+}
+.d10{
+     
+    background-color: rgb(69, 28, 104);    
+}
+.d10:hover{
+    transform: skew(50deg); 
+
+}
+.d11{
+     
+    background-color: rgb(17, 209, 206);    
+}
+.d11:hover{
+    transform: skewX(70deg); 
+
+}
+.d12{
+     
+    background-color: rgb(220, 174, 23);    
+}
+.d12:hover{
+    transform: skewY(120deg); 
+
+}
+.d13{
+    background-color: rgb(41, 135, 56);    
+}
+.d13:hover{
+    transform: matrix(2,5,0,1,0,0); 
+
+}
+.d14{
+     
+    background-color: rgb(167, 217, 123);    
+}
+.d14:hover{
+    transform: translate3d(30px,20px,70px); 
+
+}
+@media screen and (min-width:615px) and (max-width:818px) {
+    div{
+        width: 33%;
+    }
+}
+@media screen and (min-width:817px) and (max-width:1015px) {
+    div{
+        width: 25%;
+    }
+}
+@media screen and (min-width:1017px) {
+    div{
+        width: 20%;
+    }
+}

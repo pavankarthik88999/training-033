@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+        .rotation{
+            animation-name=change;
+            animation-duration: 4s;
+            animation-delay: 0s;
+        }
+       
+        @keyframes change {
+           
+            50%{
+                transform: rotate(360deg);
+            }
+            70%{
+                transform: translatex(400px);
+            }
+            98%{
+                transform: translatey(400px);
+                transform: translatex(400px);
+                transform: scale(5);
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <p id="demo">pharagraph</p>
+  <button id="demo2" class="rotation bg-info shadow" onclick="change()" onmouseover="large()">click</button>
+    <script>
+        function change(){
+           document.getElementById("demo").innerHTML="para";
+           document.getElementById("demo2").style.animationName="change";
+        }
+        
+        function large(){
+            let btn=documnet.getElementById("demo2");
+          document.getElementById("demo2").style.animationName="large";
+        btn.addEventListener("mouseover",rotation());
+            
+        }
+        function rotation(){
+            documnet.getElementById("demo2").style.backgroundcolor="green";
+        }
+    
+    </script>
+</body>
+</html>
