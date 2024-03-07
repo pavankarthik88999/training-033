@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     var tbl=document.createElement('table');
+    var bdy=document.body;
+    var row=document.createElement('tr');
+    var data=document.createElement('td');
+    bdy.appendChild('tbl');
+    tbl.appendChild('row');
+    row.appendChild('data');
+    function click(){
+        var name=['pavan','ram','hari','durgi','nani'];
+        for(i=0;i<=5;i++){
+            data.item(i).innertext=name[i];
+            
+        }
+       
+    }
+    </script>
+</body>
+</html>

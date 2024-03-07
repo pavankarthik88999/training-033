@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter Mail:<input id="mail" type="email" required><br> 
+    <button onclick="check()">Check</button>
+    <script>
+        function check(){
+        let data=['karthik@gmail.com','sushanth@yahoo.com','ram@hotmail.com','hari@bing.com'];
+        let get = document.getElementById('mail').value;
+        let i=0;
+        let result = data.find(function (value) {
+            if(value===get){
+                return true; 
+            }
+            i++;
+        });
+        if (result) {
+            document.write('<br>' + get + '  Existed  at index '+data[i]);
+        } else {
+            document.write('<br>' + get + '  Proceed');
+        }
+    }
+    </script>
+</body>
+
+</html>

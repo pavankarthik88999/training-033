@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let course=['html','css','bootstrap','js'];
+        let getcourse=course.find(function(ele){
+            return ele.startsWith('h');
+        });
+        let getcourse2=course.find((elem)=>{
+            return elem.endsWith('s');
+        })
+    document.write(getcourse);
+    document.write(getcourse2);
+    </script>
+</body>
+</html>

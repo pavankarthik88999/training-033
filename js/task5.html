@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <table class="table" border="">
+        <tr>
+            <th>course name</th>
+            <th>course num</th>
+            <th>fee</th>
+            <th>place</th>
+
+        </tr>
+
+    </table>
+    <button class="btn">show data</button>
+   
+    <script>
+        var tbl = document.querySelector('table');
+        var btn = document.querySelector('button');
+    
+        var data = [
+            { name: 'html', c_num: 1111, fee: 235, place: 'aditya' },
+            { name: 'css', c_num: 2222, fee: 256, place: 'aditya' },
+            { name: 'bootstrap', c_num: 3333, fee: 535, place: 'aditya' },
+            { name: 'javascript', c_num: 4444, fee: 935, place: 'aditya' }
+        ];
+    
+        btn.addEventListener('click', function() {
+            for (var i = 0; i < data.length; i++) {
+                var tr_tag = document.createElement('tr');
+                tbl.appendChild(tr_tag);
+                for (var key in data[i]) {
+                    var td_tag = document.createElement('td');
+                    td_tag.innerText = data[i][key];
+                    tr_tag.appendChild(td_tag);
+                }
+            }
+        });
+    </script>
+    
+</body>
+</html>

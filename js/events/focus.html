@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onblur="samp(this)">
+   <input type="text" onfocus="sample(this,'green')">
+   <script>
+   function sample(e,color_value){
+        e.style.backgroundColor=color_value;
+    }
+    function samp(val){
+        val.style.visibility = "hidden";
+    }
+   </script> 
+</body>
+</html>

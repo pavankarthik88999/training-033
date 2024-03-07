@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="p1">sushanth</p>
+    <p class="p1">ram</p>
+    <p id="p2">hari</p>
+    <h4>html</h4>
+    <div id="achor">kuy</div>
+    <script>
+        // document.querySelector("p").style.backgroundColor="green";
+        // document.querySelectorAll("p")[1].style.backgroundColor="blue";
+        let var1=document.querySelectorAll(".p1,#p2,h4");
+        // var1[0].style.backgroundColor="yellow";
+        // var1[1].style.backgroundColor="yellow";
+        // var1[2].style.backgroundColor="yellow";
+        // var1[3].style.backgroundColor="yellow";
+        // for(let i=0;i<5;i++){
+        //     var1[i].style.backgroundColor="yellow";
+        // }
+        let my=document.getElementById("achor");
+        // my.setAttribute("style","height:200px");
+        // my.setAttribute("style","width:200px");
+        my.setAttribute("align","center");
+        my.setAttribute("style","color:red");
+        // my.setAttribute("style","border:5px solid black");
+        my.setAttribute("style","background-color:skyblue");
+        // my.setAttribute("style","padding:30px");
+        let get=document.createElement("button");
+        get.setAttribute("id","btn");
+        let bty=document.body;
+        bty.appendChild(get);
+        get.innerText="click";
+        var hov=document.getElementById('btn');
+        hov.addEventListener('mouseover',fun1);
+        function fun1(){
+            hov.style.cssText=`backgroundcolor:blue`;
+        }
+    </script>
+</body>
+</html>

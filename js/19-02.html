@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dd{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <ul id="change">
+      <li>  
+        <dt id="l1">AEC</dt>
+        <dd>Aditya Engineering college</dd>
+    </li>
+    <li>
+        <dt id="l2">AECT</dt>
+        <dd>Aditya  college of Engineering and technology</dd>
+    </li>
+    <li>
+        <dt id="l3">ACOE</dt>
+        <dd>Aditya  college of Engineering</dd>
+    </li>
+    </ul>
+    <script>
+        const ddele=document.getElementsByTagName("dd");
+        const dtele=document.getElementsByTagName("dt");
+        for(let i=0;i<dtele.length;i++)
+        {
+            dtele[i].addEventListener('click',function(){
+                ddele[i].style.display="block"; 
+            }) 
+        }
+        
+    </script>
+</body>
+</html>

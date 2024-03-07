@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table class="tables" border="">
+    <tr>
+        <th>course name</th>
+        <th>cournse num</th>
+        <th>fee</th>
+        <th>place</th>
+    </tr>
+   </table>
+   <button >click</button>
+   <script>
+    var tbl=document.querySelector('table');
+    var btn=document.querySelector('button');
+    var data=[
+        {
+            name:'html',
+            c_number:2343,
+            fee:234,
+            place:'dwp'
+        },
+        {
+            name:'css',
+            c_number:2345,
+            fee:234,
+            place:'dwp'
+        },        {
+            name:'js',
+            c_number:2348,
+            fee:234,
+            place:'dwp'
+        },        {
+            name:'sql',
+            c_number:2349,
+            fee:234,
+            place:'dwp'
+        },
+    ]
+    btn.addEventListener('click',function(){
+    for(var i=0;i<data.length;i++){
+        var row=document.createElement('tr');
+        tbl.appendChild(row);
+        for( var key in data[i]){
+            var td_tag=document.createElement('td');
+            row.appendChild(td_tag);
+            td_tag.innerText=data[i][key];
+            row.appendChild(td_tag);
+        }
+    }
+});
+   </script> 
+</body>
+</html>

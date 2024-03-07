@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p-tag"></p>
+    <input type="text" onkeyup="act(this.value)">
+    <h1 id="headi"></h1>
+    <p id="c"></p>
+<script>
+    let p=document.getElementById('p-tag');
+   function act(value){
+    if(value.length<4){
+        p.innerHTML='please enter the value above 3 chars  '+value.length+'characters entered';
+        p.style.color='red';
+    }
+    else{
+       p.innerHTML='';
+    }
+    c.innerHTML='count'+value.length;
+   }
+    </script>
+</body>
+</html>

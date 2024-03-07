@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="myform">
+    ENTER NAME:<input type="text" ><br>
+    <select name="colleg" id="" onchange="sample(this.value)">
+    <option value="AEC" id="op1">AEC</option>
+    <option value="ACET" id="op2">ACET</option>
+    <option value="AOEC" id="op3">AOEC</option></select>
+    <p id="tag"></p>
+    <input type="button" onclick="submitform()" value="submit">
+    <input type="button" onclick="resetform()" value="reset">
+</form>
+<script>
+    var val1=document.querySelector('p');
+function sample(value){
+ val1.innerHTML=value;
+}
+    </script>
+</body>
+</html>

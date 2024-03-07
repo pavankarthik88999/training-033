@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="">click</button>
+    <script>
+                     var v=document.getElementsByTagName('button')[0];
+v.addEventListener('click',move)
+        function move(){
+
+            let x=getrandom(-40,40);
+         let y=getrandom(-40,40);
+console.log(x,y);
+            v.style.transform=`translate(${x}px,${y}px)`;
+        }
+        function getrandom(min,max){
+            return Math.floor(Math.random()*(max-min+1))+min;
+        }
+    </script>
+</body>
+</html>

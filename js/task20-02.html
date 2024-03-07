@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tb{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="click()">clcick</button>
+    <table border="" id="tb">
+        <tr>
+            <th colspan="2">numbers</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+
+    </table>
+    <script>
+        function click(){
+          let var1=document.getElementById('tb');
+          var1.style.display='inline';
+        }
+    </script>
+</body>
+</html>

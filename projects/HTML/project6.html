@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 2px;
+            width: 2px;
+            border-top: 4px solid;
+            border-radius: 50%;
+            padding: 25px;
+            animation-name: rot;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: linear;
+            position: relative;
+            top: 300px;
+            left: 700px;
+           
+        }
+        @keyframes rot {
+            0%{
+               
+                transform: rotate(0deg);
+                color: blue;
+            }
+
+            
+            50%{
+                
+                color: brown;
+   
+            }
+    
+            100%{
+                transform: rotate(360deg);
+                color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>

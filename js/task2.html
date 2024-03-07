@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="" >
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        var tds=document.querySelectorAll('td');
+        var arr=['pavan','karthik','ram','sushanth','hari','ganesh','sri','sai','laskhmi'];
+        var color=['blue','skyblue','red','pink','green','yellow','olivegreen','brown',' beige'];
+        for(i=0;i<tds.length;i++){
+            tds[i].innerText=arr[i];
+            tds[i].style.backgroundColor=color[i];
+        }
+    </script>
+</body>
+</html>

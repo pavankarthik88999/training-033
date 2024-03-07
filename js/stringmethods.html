@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function strmethod(str_name){
+
+            document.write(str_name+"<br>");
+        }
+        let str="pavan";
+        let str2="ram";
+        let str3="sushanth";
+        strmethod("lenght:  "+str.length);
+        strmethod("uppercase:  "+str.toUpperCase());
+        strmethod("concat:  "+str.concat(str2,str3));
+        // strmethod("index:  "+str.+"<br>");
+        strmethod(str.indexOf("n"));
+        strmethod(str.lastIndexOf("v"));  
+        strmethod(str.charAt(4));  
+        strmethod(str.repeat(3));    
+        strmethod(str2.toLowerCase());
+        strmethod(str2.replace("ram","sir meru madam aa?")); 
+        strmethod(str.slice(0,4));        
+    </script>
+</body>
+</html>

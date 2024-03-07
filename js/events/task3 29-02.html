@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data=['ram','sushanth','pavan','hari'];
+        document.write(data);
+        let get = prompt('Enter text');
+        let result = data.find(function (value) {
+            if(value.startsWith(get)){
+                return true;
+            }
+        });
+        if (result) {
+            document.write('<br>' + get + ' is found in the data.');
+        } else {
+            document.write('<br>' + get + ' is not found in the data.');
+        }
+    </script>
+</body>
+
+</html>

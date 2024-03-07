@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let birth=[1999,2000,2001,2002,2003,2004];
+        // let ages=birth.map(function(year,index,arr){
+        //     let age=2024-year;
+        //     return 'current age is'+age;
+        // });
+    //    console.table(birth);
+    //     var out =birth.map((ele)=>`current age is ${2024-ele} `);
+    //     console.table(out);
+    // </script> -->
+
+    <script>
+        let marks=[34,54,60,30,20,10,200];
+        let result=marks.map((mark)=>{
+            if (mark>35){
+                return 'pass';
+            }
+            else {
+                return 'fail';
+            }
+        })
+        document.write(result);
+    </script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <input type="text" id="inp">
+    <button onclick="myfunction()">click</button>
+    <script>
+        function myfunction(){
+            var ele=document.getElementById('inp').value;
+            
+            document.body.style.backgroundColor=ele;
+        }
+    </script> -->
+  <!-- <h1 id="h">0</h1>
+  <button class="btn">
+    inc
+  </button>
+  <button class="btn">dec</button>
+    <script>
+     var count=0;
+     let btn=document.querySelectorAll('button');
+     btn[0].addEventListener('click',function(){
+        count++;
+        document.querySelector('h1').innerText=count;
+     });
+     btn[1].addEventListener('click',function(){
+        count--;
+        document.querySelector('h1').innerText=count;
+     });
+    </script> -->
+
+  <!-- <script>
+      var obj=[{
+        name:'pavan',
+        college:'aditya',
+      },
+      {
+        name:'ram',
+        college:'aditya',
+      },
+      {
+        name:'sushanth',
+        college:'pragathi',
+      }]
+
+      let out=obj.filter((ele)=>{
+        return ele.college =='pragathi';
+      });
+
+      for(i=0;i<obj.length;i++){
+        for(let key in obj[i]){
+          document.write("<br>"+key+":"+out[i][key]);
+        }
+      }
+    </script> -->
+  <!-- <input type=" text" id="inp">
+         <button onclick="myfunction()">click</button> -->
+  <!-- <script>
+      var arr=['ram@gmail.com','hari@gmail.com','sushanth@gmail.com'];
+      let get=prompt('enter the name').toLowerCase();
+      var output=arr.find(ele=>{return ele.toLowerCase()==get})
+        if (output){
+          document.write ('found');
+        }
+        else{
+          document.write ('not');
+        }
+    </script> -->
+
+  <!-- <script>
+      let data=['css','html','js','bootstrap'];
+      let get=prompt('enter text');
+      let output=data.find(ele=>{
+        if(ele.startsWith(get)){
+          return true;
+        }
+      });
+      if(output){
+          document.write(`${get}:already existed`);
+        }
+        else {
+          document.write(`${get}:proceed`);
+        }
+      
+
+    </script> -->
+
+  <!-- <button onclick="change()">click</button>
+    <script>
+      function change(){
+        let temp='#';
+      for(i=0;i<6;i++){
+        temp+=Math.floor(Math.random()*16).toString();
+      }
+      document.body.style.backgroundColor=temp;
+      }
+
+    </script> -->
+  
+    <!-- <button>inc</button>
+    <button>dec</button>
+    <h1 id="heading">0</h1>
+    <script>
+      let click=document.querySelectorAll('button');
+      let count=0;
+      click[0].addEventListener('click',function(){
+          count++;
+          document.getElementById('heading').innerText=count;
+      })
+      click[1].addEventListener('click',function(){
+          count--;
+          document.getElementById('heading').innerText=count;
+      })
+    </script> -->
+
+
+  <!-- <table border="">
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <script>
+    let td_tag = document.querySelectorAll('td');
+    for (let i = 0; i < td_tag.length; i++) {
+      td_tag[i].innerText = i + 1;
+    }
+  </script> -->
+  <!-- <table border=""></table>
+  <script>
+    let tb = document.querySelector('table');
+    let get = prompt('enter value');
+    for (let i = 0; i < get; i++) {
+      var tr_tag = document.createElement('td');
+      let temp = prompt('enter dATA');
+      tr_tag.innerText = temp;
+      tb.appendChild(tr_tag);
+    }
+
+
+  </script> -->
+
+  <!-- <table border="">
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <script>
+    var arr=[1,2,3,4,6];
+    let td_tag=document.querySelectorAll("td");
+    for(let i=0;i<arr.length;i++){
+       td_tag[i].innerText=arr[i];
+    }
+  </script> -->
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container p-5 border">
+        <div class="row gap-1">
+            <input id="inputValue" type="text" class="col-9 mx-1" disabled>
+            <button class="btn btn-success col-2 mx-1">c</button>
+        </div>
+        <div class="row gap-1 mt-2">
+            <button class="btn btn-success col-3">1</button>
+            <button class="btn btn-success col-3">2</button>
+            <button class="btn btn-success col-3">3</button>
+            <button class="btn btn-success col-2 mx-1">/</button>
+        </div>
+        <div class="row gap-1 mt-2">
+            <button class="btn btn-success col-3">4</button>
+            <button class="btn btn-success col-3">5</button>
+            <button class="btn btn-success col-3">6</button>
+            <button class="btn btn-success col-2 mx-1">*</button>
+        </div>
+        <div class="row gap-1 mt-2">
+            <button class="btn btn-success col-3">7</button>
+            <button class="btn btn-success col-3">8</button>
+            <button class="btn btn-success col-3">9</button>
+            <button class="btn btn-success col-2 mx-1">-</button>
+        </div>
+        <div class="row gap-1 mt-2">
+            <button class="btn btn-success col-3">0</button>
+            <button class="btn btn-success col-3">.</button>
+            <button class="btn btn-success col-3">=</button>
+            <button class="btn btn-success col-2 mx-1">+</button>
+        </div>
+    </div>
+    <script>
+        let value=document.getElementById('inputText');
+        let btn=document.querySelectorAll('button');
+        btn[0].addEventListener('click',)
+    </script>
+</body>
+</html>
+</body>
+
+</html>

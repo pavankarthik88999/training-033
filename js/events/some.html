@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        let friends=['ramvanumu@gmail.com','sushanth@gmail.com','hari@gmail.com'];
+        let mails=friends.some((mail)=>{
+            return mail=='ramvanumu@gmail.com';
+        })
+        let mailes=friends.some(function(mail){
+            return mail=='karthik@gmail.com';
+        })
+        document.write(mails);
+        document.write(mailes);
+    </script>
+
+
+    <!-- every method -->
+
+    <!-- <script>
+        let marks=[50,10,40,39,60,90,50,50];
+        // document.write(marks);
+        let result=marks.every((check)=>{
+            console.log(check);
+            return check>35;
+
+        })
+    </script> -->
+</body>
+</html>

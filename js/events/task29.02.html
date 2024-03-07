@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let details=[{
+            name:'pavan',
+            college:'aditya'
+        },
+        {
+            name:'ram',
+            college:'pragathi'
+        },
+        {
+            name:'sushanth',
+            college:'aditya'
+        }
+    ]
+    let show=details.filter(function(ele){
+        return ele.college=='aditya';
+        
+})
+    for(let i=0;i<show.length;i++){
+        for(let key in show[i]){
+            document.write(`<br> ${key}:${show[i][key]}`);
+        }
+    }
+
+    </script>
+
+    <!-- in table -->
+    <!-- <script>
+        let details = [{
+            name: 'pavan',
+            college: 'aditya'
+        },
+        {
+            name: 'ram',
+            college: 'pragathi'
+        },
+        {
+            name: 'sushanth',
+            college: 'aditya'
+        }
+        ]
+        let show = details.filter(function (ele) {
+            return ele.college == 'aditya';
+        })
+        document.write('<table border=1>');
+        document.write('<tr> <th>name</th><th>college</th> </tr>');
+        var tab = document.querySelector('table');
+        show.forEach((value) => {
+            var tr = document.createElement('tr');
+            tab.appendChild(tr);
+
+            for (let key in value) {
+                var td = document.createElement('td');
+                tr.appendChild(td);
+                td.innerText = value[key];
+            }
+        })
+
+    </script> -->
+</body>
+
+</html>

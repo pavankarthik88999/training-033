@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let sal = [40000, 50001, 60000,7003,5006,1007];
+    console.table(sal);
+
+//     sal.forEach((salary,index) => {
+//         var hike = salary/10; // Changed 'element' to 'salary'
+//         console.log(hike);
+//         sal[index] = salary + hike;
+//     });
+//     console.table(sal);
+    //    let print=sal.forEach(function(salary,index){
+    //     var hike=salary/10;
+    //     console.log(hike);
+    //     sal[index]=salary+hike;
+    //    });
+    //    console.table(print);
+       var eve_sal=sal.filter((ele,i)=>{
+        return ele%2 == 0
+       })
+       var odd_sal=sal.filter((ele,i)=>{
+        return ele%2 != 0
+       })
+       console.log(eve_sal);
+       console.log(odd_sal);
+    //    let num=[7,90,8]
+    //    let sum=num.reduce(function(acc,ele){
+    //     return acc+ele;
+    //    },0);
+    //    console.log(sum); 
+</script>
+
+</body>
+</html>
